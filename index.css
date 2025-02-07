@@ -1,44 +1,12 @@
-#btn{
-   border-radius: 35px; 
-   color: pink;
-   background-color: black;
-   cursor: pointer;
-   height: 60px;
-   width: 200px;
 
-}
-#btn:active{
-    font-size: 25px;
-}
 body{
     background-color: #4C516D;
 }
-
-video {
-  width: 400px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-  margin-right: auto;
-
-    
-}
 #life{
     text-align: center;
-    -webkit-text-fill-color: aquamarine;
 }
-@media all and (max-width: 1300px) {
-    video{
-        align-self: center;
-    }
-    #life{
-        align-self: center;
-    }
-}@media all and (min-width: 100px) {
-    video{
-        align-self: center;
-    }
-    #life{
-        align-self: center;
-    }
+video{
+    margin: auto;
+    display: flex;
+    
 }
