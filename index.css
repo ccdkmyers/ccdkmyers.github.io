@@ -2,17 +2,20 @@ body{
     background-color: #4C516D;
 }
 .container{
-    display: flex;
+    display:flex;
     flex-direction: column;
-    height: 20px;
     align-items: center;
-    justify-content: space-between;
+    
+   
 }
 #text{
-    height: 200px;
+    height: 30px;
     width: 200px;
+    color: cadetblue;
 }
 #baby{
     height: 200px;
     width: 200px;
+    border-radius: 30%;
+    border: black;
 }
