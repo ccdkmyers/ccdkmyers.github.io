@@ -20,11 +20,15 @@ video {
     display: block;
     margin-left: auto;
   margin-right: auto;
-   display: flex;
+
     
 }
 #life{
     text-align: center;
     -webkit-text-fill-color: aquamarine;
 }
-
+@media (max-width: 768px){
+    video {
+        padding: 10px;
+    }
+}
