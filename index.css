@@ -15,17 +15,14 @@ body{
 }
 
 video {
-    width: 400px;
+  width: 400px;
     height: 500px;
-    border-radius: 50px;
-    margin-left: 500px;
-    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
     
 }
 #life{
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     -webkit-text-fill-color: aquamarine;
 }
