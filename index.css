@@ -27,13 +27,17 @@ video {
     text-align: center;
     -webkit-text-fill-color: aquamarine;
 }
-@media (max-width: 932px){
+@media (max-width: 1231px){
     video {
         padding: 10px;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media (min-width: 300px) {
     video {
         padding: 10px;
+        justify-content: space-between;
+        align-items: center;
     }
 }
