@@ -27,7 +27,12 @@ video {
     text-align: center;
     -webkit-text-fill-color: aquamarine;
 }
-@media (max-width: 768px){
+@media (max-width: 932px){
+    video {
+        padding: 10px;
+    }
+}
+@media (min-width: 300px) {
     video {
         padding: 10px;
     }
