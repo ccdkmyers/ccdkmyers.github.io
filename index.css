@@ -1,12 +1,18 @@
-
 body{
     background-color: #4C516D;
 }
-#life{
-    text-align: center;
-}
-video{
-    margin: auto;
+.container{
     display: flex;
-    
+    flex-direction: column;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#text{
+    height: 200px;
+    width: 200px;
+}
+#baby{
+    height: 200px;
+    width: 200px;
 }
